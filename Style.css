@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --bg-color: #562b80;
+}
+
+body{
+    background-color: var(--bg-color);
+    background-image: url('./Images/Background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Sora", sans-serif;
+}
+
+/* navbar */
+
+.list{
+    color: white;
+    list-style: none;
+
+}
+.navbar{
+    text-align: center;
+    padding: 30px 30px;
+} 
+.menu{
+    margin-top: 20px;
+}
+#contactus{
+    border: 1px solid;
+    border-radius: 17px;
+    padding: 10px;
+    background-color: orange;
+}
+
+/* section 1 */
+
+.section-1{
+    text-align: center;
+    border: 1px solid;
+}
+
+.head1{
+    font-size: 40px;
+    color: orange;
+}
+.head2{
+    font-size: 25px;
+    color: white;
+}
+
+.contact{
+    color: white;
+    border: 1px solid;
+    /* width: fit-content; */
+    border-radius: 8px;
+    padding: 5px
+}
+
+.section-1-2 img{
+    width: 80%;
+}
